@@ -1,7 +1,7 @@
 {
     "name": "@gopikiller/winston-logger",
     "description": "Common winston logger with file transport",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license": "ISC",
     "author": "gopikiller",
     "main": "lib/index.js",
