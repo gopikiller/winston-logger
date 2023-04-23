@@ -1,0 +1,26 @@
+{
+    "name": "@gopikiller/winston-logger",
+    "description": "Common winston logger with file transport",
+    "version": "1.0.0",
+    "license": "ISC",
+    "author": "gopikiller",
+    "scripts": {
+        "build": "tsc --declaration"
+    },
+    "engines": {
+        "node": "16"
+    },
+    "files": [
+        "lib"
+    ],
+    "publishConfig": {
+        "gopikiller:registry": "https://npm.pkg.github.com"
+    },
+    "dependencies": {
+        "winston": "^3.8.2"
+    },
+    "devDependencies": {
+        "@types/node": "^18.16.0",
+        "node": "^19.8.1"
+    }
+}
