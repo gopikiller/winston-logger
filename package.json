@@ -4,12 +4,14 @@
     "version": "1.0.1",
     "license": "ISC",
     "author": "gopikiller",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
     "scripts": {
         "build": "tsc --declaration",
         "release": "release-it"
     },
     "engines": {
-        "node": "18"
+        "node": ">=14.x <18.x"
     },
     "files": [
         "lib"
