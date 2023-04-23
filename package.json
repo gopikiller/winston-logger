@@ -13,6 +13,14 @@
     "files": [
         "lib"
     ],
+    "homepage": "https://github.com/gopikiller/winston-logger.git#readme",
+    "bugs": {
+        "url": "https://github.com/gopikiller/winston-logger.git/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gopikiller/winston-logger.git"
+    },
     "publishConfig": {
         "gopikiller:registry": "https://npm.pkg.github.com"
     },
