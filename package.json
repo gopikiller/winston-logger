@@ -1,11 +1,12 @@
 {
     "name": "@gopikiller/winston-logger",
     "description": "Common winston logger with file transport",
-    "version": "1.0.0",
+    "version": "0.0.0",
     "license": "ISC",
     "author": "gopikiller",
     "scripts": {
-        "build": "tsc --declaration"
+        "build": "tsc --declaration",
+        "release": "release-it"
     },
     "engines": {
         "node": "16"
@@ -29,6 +30,7 @@
     },
     "devDependencies": {
         "@types/node": "^18.16.0",
-        "node": "^19.8.1"
+        "node": "^19.8.1",
+        "release-it": "^15.10.1"
     }
 }
